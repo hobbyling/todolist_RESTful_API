@@ -34,4 +34,5 @@ exports.noPathHandle = function (res) {
     "status": "false",
     "message": "無此網路路由"
   }))
+  res.end()
 }
